@@ -10,7 +10,7 @@ const Product = () => {
   const [productData,setProductData] =useState(false);
   const [image,setImage] =useState('')
   const [size,setSize] =useState()
-  const [showTryOn, setShowTryOn] = useState(false);
+  // const [showTryOn, setShowTryOn] = useState(false);
 
     const fetchProductData =async ()=>{
         products.map((item)=>{
@@ -93,3 +93,4 @@ const Product = () => {
 }
 
 export default Product 
+
